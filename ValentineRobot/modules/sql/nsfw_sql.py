@@ -1,6 +1,6 @@
 import threading
 from sqlalchemy import Column, String
-from AsukaRobot.modules.sql import BASE, SESSION
+from ValentineRobot.modules.sql import BASE, SESSION
 
 class NSFWChats(BASE):
     __tablename__ = "nsfw_chats"
