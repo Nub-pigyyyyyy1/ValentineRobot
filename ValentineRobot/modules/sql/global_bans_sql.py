@@ -1,6 +1,6 @@
 import threading
 
-from AsukaRobot.modules.sql import BASE, SESSION
+from ValentineRobot.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, BigInteger, String, UnicodeText
 
 
