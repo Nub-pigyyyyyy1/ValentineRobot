@@ -1,3 +1,9 @@
+#Made by @kira_yoshikage_789.
+#Give credits while kanging. 
+
+
+
+
 import logging
 import os
 import sys
@@ -33,7 +39,7 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
     STRICT_GBAN = int(getenv('STRICT_GBAN', "true"))
     WORKERS = int(getenv('WORKERS', "8"))
     BAN_STICKER = getenv('BAN_STICKER',
-                                 'CAADAgADOwADPPEcAXkko5EB3YGYAg')
+                                 '')
     ALLOW_EXCL = getenv('ALLOW_EXCL', "true")
     CASH_API_KEY = getenv('CASH_API_KEY', "-xyz")
     TIME_API_KEY = getenv('TIME_API_KEY', "-xyz")
