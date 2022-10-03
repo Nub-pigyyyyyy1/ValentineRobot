@@ -1,7 +1,7 @@
 {
       "name": "Valentine",
       "description": "An Anime themed Telegram group management bot.",
-      "logo": "",
+      "logo": "https://telegra.ph/file/64edfe7826d39c4108cd2.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -54,7 +54,7 @@
          "value": ""
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Asuka support than consider you made an enemy.",
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Valentine support than consider you made an enemy.",
          "required": true,
          "value": "kakashi_bots_Support"
       },
@@ -89,7 +89,7 @@
          "value": ""
       },
       "DEV_USERS": {
-         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Asuka support then keep the current ID's here at they are and add yours.",
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Valentine support then keep the current ID's here at they are and add yours.",
          "required": false,
          "value": ""
       },
