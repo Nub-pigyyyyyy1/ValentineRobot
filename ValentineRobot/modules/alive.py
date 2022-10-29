@@ -18,8 +18,8 @@ from pyrogram import __version__ as pyro
 
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/6cbc8452a2796ad58c2f9.jpg"
-file2 = "https://telegra.ph/file/3b4eed00be4dfaa189fff.jpg"
+file1 = "https://telegra.ph/file/b10942e32bcb68f2e66db.jpg"
+file2 = "https://telegra.ph/file/679062657c4e041db8be7.jpg"
 """ =======================CONSTANTS====================== """
 
 START_TIME = datetime.utcnow()
@@ -57,10 +57,10 @@ async def hmm(yes):
     Text += f" **Updates** - [Crusaders Tech updates](https://t.me/Crusaderstechupdates)\n\n"
     Text += f"Thanks For using me!"
     BUTTON = [[Button.url("Network", "https://t.me/CrusadersXNetwork")]]
-    on = await borg.send_file(yes.chat_id, file="",caption=Valentine, buttons=BUTTON)
+    on = await borg.send_file(yes.chat_id, file="https://telegra.ph/file/679062657c4e041db8be7.jpg",caption=Valentine, buttons=BUTTON)
 
 @register(pattern=("/repo"))
 async def repo(event):
     Text = f"**Hey [{event.sender.first_name}](tg://user?id={event.sender.id}), Join my Support Chat Or contact my Developer to get my Source Code!**\n\n"
     BUTTON = [[Button.url("Support", "https://t.me/CrusadersTechSupport"), Button.url("Dev", "https://t.me/kira_yoshikage_789")]]
-    await borg.send_file(event.chat_id, file="", caption=Valentine, buttons=BUTTON)
+    await borg.send_file(event.chat_id, file="https://telegra.ph/file/b10942e32bcb68f2e66db.jpg", caption=Valentine, buttons=BUTTON)
