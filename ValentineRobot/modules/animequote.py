@@ -1,4 +1,4 @@
-#Owned By @TheKaizuryu & @Xelcius
+#Owned By @Xelcius
 
 import json
 import requests
